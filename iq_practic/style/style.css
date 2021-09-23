@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: local('Montserrat-Black'),
+    url(../src/Montserrat-Black.ttf);
+}
+.main{
+    margin: auto;
+    width: 100%;
+    background-color: #6BBD45;
+}
+.nav{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 16pt;
+}
+video{
+    background-color: black;
+    height: 600px;
+
+}
+.header{
+    margin: auto;
+
+}
+a li:hover{
+    color: #6BBD45;
+
+}
+.content{
+    background-color: chocolate;
+    width: 100%;
+}
