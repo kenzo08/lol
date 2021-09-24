@@ -2,40 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Купить земельный участок в Тюмени | ДК «Навигатор»</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 </head>
 <body>
-<main class="main">
-    <div class="header">
-        <img src="../src/logo.png" class="logo" height="137" width="260">
-        <ul class="nav">
-          <a href="#"> <li>О компании</li></a>
-            <a href="#"> <li>Коттеджные поселки</li></a>
-            <a href="#"><li>Покупателям</li></a>
-            <a href="#"><li>Сервисная компания</li></a>
-            <a href="#"><li>Таунхаус</li></a>
-        </ul>
-        <span>+7 345 565-455</span>
-        <input type="button" class="order-call" value="Заказать звонок">
+<div class="container-lg">
+    <div class="row">
+        <div class="col">
+            <img src="../src/logo.png" class="logo" height="77" width="150">
+        </div>
+        <div class="col">
+            О компании
+        </div>
+        <div class="col">
+            Коттеджные поселки
+        </div>
+        <div class="col">
+            Покупателям
+        </div>
+        <div class="col">
+            Сервисная компания
+        </div>
+        <div class="col">
+            Таунхаус
+        </div>
+        <div class="col">
+            <span>+7 345 565-455</span>
+        </div>
+        <div class="col">
+            <input type="button" class="order-call" value="Заказать звонок">
+        </div>
+
     </div>
-    <div class="content" width="100%">
+    <div class="video">
         <video  autoplay="autoplay" loop="loop" preload="auto" width="100%">
             <source src="../src/main-video2.webm"  muted="muted"  codecs="vp8, vorbis">
         </video>
-        <div class="after-video">
-<h1>Продажа земельных участков</h1>
-        <h2>Земельные участки под Тюменью с развитой инфраструктурой</h2>
-       <ul class="list">
-           <li> <img src="../src/Ellipse.png" class="logo" height="30" width="50">Близко к городу <br>Быстрый старт 20 минут до центра Тюмени</li>
-           <li> <img src="../src/Group 22.png" class="logo" height="30" width="50">Экология<br> Живописная природа- густые леса и чистые реки</li>
-           <li> <img src="../src/Group.png" class="logo" height="30" width="50">Инфраструктура <br>Рядом магазины, школы, больницы, детские сады</li>
-           <li> <img src="../src/Group(1).png" class="logo" height="30" width="50">Коммуникации<br> Все коммуникации включены в стоимость</li>
-       </ul> </div>
-
     </div>
 
+    <h1>Продажа земельных участков</h1>
+    <p class="under_h1">Земельные участки под Тюменью с развитой инфраструктурой</p>
+    <div class="row">
+        <div class="col-3">
+           <img src="../src/Ellipse.png" class="logo" height="30" width="50">Близко к городу <br>Быстрый старт 20 минут до центра Тюмени
+        </div>
+        <div class="col-3">
+            <img src="../src/Group 22.png" class="logo" height="30" width="50">Экология<br> Живописная природа- густые леса и чистые реки
+        </div>
+        <div class="col-3">
+            <img src="../src/Group.png" class="logo" height="30" width="50">Инфраструктура <br>Рядом магазины, школы, больницы, детские сады
+        </div>
+        <div class="col-3">
+            <img src="../src/Group(1).png" class="logo" height="30" width="50">Коммуникации<br> Все коммуникации включены в стоимость
+        </div>
+    </div>
+        <div class="row" id="slide-img">
+            <div class="col">
+                <img src="../src/Rectangle 4(1).png">
+            </div>
+            <div class="col">
+                <img src="../src/Rectangle 4(2).png">
+            </div>
+            <div class="col">
+                <img src="../src/Rectangle 4(3).png">
+            </div>
+            <div class="col">
+                <img src="../src/Rectangle 4.png">
+            </div>
+        </div>
 
-</main>
+
+    <div class="under_slider">
+        <div class="row">
+            <div class="col-2">
+                <label for="customRange3" class="form-label">Стоимость</label>
+                <input type="range" class="form-range" min="590490" max="2414475" step="1" id="customRange3">
+            </div>
+            <div class="col-2">
+                <label for="customRange3" class="form-label">Размер участка</label>
+                <input type="range" class="form-range" min="4" max="16" step="1" id="customRange3">
+            </div>
+            <div class="col-2">
+             Еще параметры
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../scripts/script.js "></script>
+
 </body>
 </html>
