@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("../fonts/Montserrat-Black.ttf");
+}
+
 body{
-    font-family: Montserrat,sans-serif;
+    font-family: "Montserrat-Black",sans-serif;
     color: #675a54;
 }
 .container-fluid{
@@ -8,26 +13,51 @@ body{
 
 }
 .header{
+    font-family: "Montserrat-Black";
+    font-size: 10pt;
+    color: #675a54;
     background-color: #ffff;
 }
 .header_inner{
+    font-family: "Montserrat-Black",sans-serif;
     background-color: #ffff;
     width: 85%;
 
     margin: auto;
 }
 .container-md{
+    font-family: "Montserrat-Black",sans-serif;
     margin-top: -150px;
-    
+
 
 }
+.wrap-op{
+    font-family: "Montserrat-Black",sans-serif;
+    border-width: 5px;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom right, #2983D4 50%, #7EC95C 60%);
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    margin-right: 300px;
+    color: #ffff;
+    margin-bottom: 50px;
+}
 .opacity-part{
-    margin-bottom: 100px;
-    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    opacity: 0.5;
+    background-color: #000;
+    z-index: -1;
+
 }
 
 video{
-    margin-top: -117px;
+    margin-top: -200px;
 width: 100%;
     z-index: -5;
     position: relative;
