@@ -2,14 +2,35 @@ body{
     font-family: Montserrat,sans-serif;
     color: #675a54;
 }
-.container-lg{
-    margin-top: 20px;
+.container-fluid{
+
     font-size: smaller;
-    width: 100%;
+
+}
+.header{
+    background-color: #ffff;
+}
+.header_inner{
+    background-color: #ffff;
+    width: 85%;
+
+    margin: auto;
+}
+.container-md{
+    margin-top: -150px;
+    
+
+}
+.opacity-part{
+    margin-bottom: 100px;
+    opacity: 1;
 }
 
 video{
-    width: 100%;
+    margin-top: -117px;
+width: 100%;
+    z-index: -5;
+    position: relative;
 
 }
 .col{
@@ -19,7 +40,7 @@ video{
     text-align: center;
 }
 .order-call{
-    color: white;
+    color:#ffff;
     border-bottom-right-radius: 10px;
     width: 150px;
     height: 35px;
@@ -37,7 +58,4 @@ video{
     border-style: groove;
     color: white;
 
-}
-.video{
-    width: 1000px;
 }
