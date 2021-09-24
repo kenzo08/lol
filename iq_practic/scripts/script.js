@@ -1,35 +1,7 @@
-$(document).ready(function(){
-    $('.row').slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-});
-});
-
-$('.row').slick({
-    centerMode: true,
-    centerPadding: '60px',
+$('.slick-slider').slick({
+    infinite: true,
     slidesToShow: 3,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
-            }
-        }
-    ]
+    //количество слайдов, которые выводятся на экране
+    slidesToScroll: 2
+    //количество слайдов, которые перелистываются за один раз
 });

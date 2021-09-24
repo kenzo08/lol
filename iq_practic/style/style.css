@@ -33,10 +33,9 @@ body{
 }
 .wrap-op{
     font-family: "Montserrat-Black",sans-serif;
-    border-width: 5px;
-    border: 10px solid;
+    border: solid 5px;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to bottom right, #2983D4 50%, #7EC95C 60%);
+    border-image-source: linear-gradient(to bottom right, #2983D4 50%, #7EC95C 80%);
     margin-top: 50px;
     position: relative;
     z-index: 1;
@@ -88,4 +87,9 @@ width: 100%;
     border-style: groove;
     color: white;
 
+}
+.center{
+    display: block;
+    background-color: yellow;
+z-index: 5;
 }
