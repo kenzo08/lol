@@ -1,25 +1,24 @@
 .slider{
-    margin-top: 200px;
+    margin-top: 350px;
     display: block;
     height: 720px;
-    text-align: center;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
 }
 
-.slick-slide:not(.slick-active) {
+.slider .slick-slide:not(.slick-active) {
     opacity: 0.4;
 }
 .slider .slick-disabled{
     opacity: 0.4;
     pointer-events: none;
 }
+.slider .slick-list{
+}
 
 .slick-track{
     display: flex;
-    width: 100%;
-
-}
-.slick-list{
-    overflow: hidden;
 }
 .slider .slick-arrow{
     position: absolute;
@@ -30,8 +29,8 @@
 }
 .slider .slick-arrow.slick-next{
 background: url('../src/Arrow_left_active.png') 0 0 / 100% no-repeat;
-    top: 1130px;
-    right: 500px;
+    top: 1375px;
+    right: 325px;
     border: none;
 
 }
@@ -40,16 +39,16 @@ background: url('../src/Arrow_left_active.png') 0 0 / 100% no-repeat;
 
 .slider .slick-arrow.slick-prev{
 background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
-    top: 1130px;
-    right:700px;
+    top: 1376px;
+    right:535px;
     border: none;
 }
 
 .slider .slick-dots{
     display: flex;
     position: absolute;
-    top:1125px;
-    right: 550px;
+    top:1382px;
+    right: 385px;
     align-items: center;
     justify-content: center;
     border: none;
@@ -79,4 +78,55 @@ background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
 .slider .slick-initialized .slick-slider .slick-dotted{
     width: 100%;
 
+}
+
+
+
+
+
+.about_slide .slick-initialized .slick-slider .slick-dotted{
+    width: 100%;
+
+}
+.about_slide .slick-arrow {
+    visibility: hidden;
+}
+
+ .about_slide{
+     position: relative;
+     margin-top: 800px;
+     display: block;
+
+ }
+.about_slide .slick-dots li.slick-active button{
+    background-color: #6BBD45;
+    width: 15px;
+    height: 15px;
+
+}
+.about_slide .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+
+}
+ .about_slide .slick-list{
+     overflow: hidden;
+ }
+.about_slide .slick-dots button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color:#D1D1D1 ;
+    border-radius: 50%;
+    border: none;
+
+}
+.about_slide .slick-dots{
+    display: flex;
+    position: absolute;
+    top: 425px;
+    right: 460px;
+    align-items: center;
+    justify-content: center;
+    border: none;
 }
