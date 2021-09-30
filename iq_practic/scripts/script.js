@@ -30,6 +30,14 @@ let paramlistjs= document.querySelector('.param_list_js');
 let line = document.querySelector('.line');
 let container_sm =document.querySelector('.container-sm');
 let border_left = document.querySelector('.border-left');
+let stepbought_btn = document.querySelector('.step-bought');
+let credit_btn = document.querySelector('.credit');
+let ipoteka_btn = document.querySelector('.ipoteka');
+let stepbought_content = document.querySelector('#tab_1');
+let credit_content = document.querySelector('#tab_2');
+let ipoteka_content = document.querySelector('#tab_3');
+
+
    map.onclick = function(){
        list.style.fontFamily='Montserrat-Regular';
        slider.style.visibility = 'hidden';
@@ -71,3 +79,50 @@ let border_left = document.querySelector('.border-left');
        }
 
    };
+   stepbought_btn.onclick = function (){
+       stepbought_content.style.display = '-webkit-box';
+       ipoteka_content.style.display = 'none';
+       credit_content.style.display = 'none';
+       stepbought_btn.classList.add('activ_but_js');
+       stepbought_btn.style.backgroundColor=' #6BBD45';
+       stepbought_btn.style.fontFamily='Montserrat-Bold';
+       stepbought_btn.style.color='#FFFFFF';
+       credit_btn.style.backgroundColor='transparent';
+       credit_btn.style.fontFamily='Montserrat-Regular';
+       credit_btn.style.color='black';
+       ipoteka_btn.style.backgroundColor='transparent';
+       ipoteka_btn.style.fontFamily='Montserrat-Regular';
+       ipoteka_btn.style.color='black';
+
+
+   };
+credit_btn.onclick = function (){
+    credit_btn.classList.add('activ_but_js');
+    credit_btn.style.backgroundColor=' #6BBD45';
+    credit_btn.style.fontFamily='Montserrat-Bold';
+    credit_btn.style.color='#FFFFFF';
+    ipoteka_btn.style.backgroundColor='transparent';
+    ipoteka_btn.style.fontFamily='Montserrat-Regular';
+    ipoteka_btn.style.color='black';
+    stepbought_btn.style.backgroundColor='transparent';
+    stepbought_btn.style.fontFamily='Montserrat-Regular';
+    stepbought_btn.style.color='black';
+    stepbought_content.style.display = 'none';
+    ipoteka_content.style.display = 'none';
+    credit_content.style.display = '-webkit-box';
+};
+ipoteka_btn.onclick = function (){
+    ipoteka_btn.classList.add('activ_but_js');
+    ipoteka_btn.style.backgroundColor=' #6BBD45';
+    ipoteka_btn.style.fontFamily='Montserrat-Bold';
+    ipoteka_btn.style.color='#FFFFFF';
+    credit_btn.style.backgroundColor='transparent';
+    credit_btn.style.fontFamily='Montserrat-Regular';
+    credit_btn.style.color='black';
+    stepbought_btn.style.backgroundColor='transparent';
+    stepbought_btn.style.fontFamily='Montserrat-Regular';
+    stepbought_btn.style.color='black';
+    stepbought_content.style.display = 'none';
+    ipoteka_content.style.display = '-webkit-box';
+    credit_content.style.display = 'none';
+}

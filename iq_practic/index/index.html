@@ -6,6 +6,7 @@
     <title>Купить земельный участок в Тюмени | ДК «Навигатор»</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/slider.css">
+    <link rel="stylesheet" href="../style/rangeStyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="../slick/slick/slick.css"/>
@@ -176,12 +177,12 @@
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-2">
-                    <label for="customRange3" class="form-label">Стоимость</label>
-                    <input type="range" class="form-range" min="590490" max="2414475" step="1" id="customRange3">
+                    <label for="customRange1" class="form-label">Стоимость</label>
+                    <input type="range" min="590490" max="2414475" step="1" id="customRange1">
                 </div>
                 <div class="col-2">
-                    <label for="customRange3" class="form-label">Размер участка</label>
-                    <input type="range" class="form-range" min="4" max="16" step="1" id="customRange3">
+                    <label for="customRange2" class="form-label">Размер участка</label>
+                    <input type="range" class="form-range" min="4" max="16" step="1" id="customRange2">
                 </div>
                 <div class="col-2">
                     <span class="else-param">Еще параметры</span>
@@ -235,44 +236,111 @@
 
         </div>
     </div>
-    <div class="container-md">
+    <div class="container-md" id="wrap_all_cards">
         <div class="about_block">
+            <h2 class="h2_about">О компании</h2>
+<div class="row" id="slide_card_row">
+    <div class="col-6">
+        <div class="about_slide"><img src="../src/Rectangle%202.png" width="593px" height="444">
+            <img src="../src/IMG_20180727_113514_Bokeh.jpg" width="593px" height="444px">
+            <img src="../src/IMG_20180727_115428_Bokeh.jpg" width="593px" height="444px">
+            <img src="../src/IMG_20180727_115752_Bokeh.jpg" width="593px" height="444px">
+            <img src="../src/IMG_20180727_115833.jpg" width="593px" height="444px"></div>
+    </div>
+    <div class="col-2">
+        <h3 class="h3_about">Более 7 лет на рынке</h3>
+        Девелоперская компания «Навигатор» более 7 лет занимается продажей земли в Тюмени, а также реализует двухэтажные квартиры в собственном жилом квартале «Зеленые аллеи».
+    </div>
+        <div class="row" id="wrap-items-blue_grey-card">
+            <div class="col-1" id="blue-card">
+                <h3 class="h3_about">Профессиональная юридическая поддержка</h3>
+                Заключаем с вами официальный договор – гарант чистоты сделки.
+            </div>
+            <div class="col-1" id="grey-card">
+                <h3 class="h3_about">Собственная сервисная компания</h3>
+                Поддерживает чистоту и порядок в поселке круглый год: убирает дороги, вывозит мусор и ухаживает за зелеными насаждениями
+            </div>
+        </div>
 
-            <div class="row">
-                <div class="col-6">
-                    <div class="about_slide">
-                        <img src="../src/Rectangle%202.png" width="593px" height="444">
-                        <img src="../src/IMG_20180727_113514_Bokeh.jpg" width="593px" height="444px">
-                        <img src="../src/IMG_20180727_115428_Bokeh.jpg" width="593px" height="444px">
-                        <img src="../src/IMG_20180727_115752_Bokeh.jpg" width="593px" height="444px">
-                        <img src="../src/IMG_20180727_115833.jpg" width="593px" height="444px">
-
-                    </div>
-
-                </div>col-2
-                <div class="col-2">
-                   <h3 class="h3_about">Более 7 лет на рынке</h3>
-                    Девелоперская компания «Навигатор» более 7 лет занимается продажей земли в Тюмени, а также реализует двухэтажные квартиры в собственном жилом квартале «Зеленые аллеи».
-                    <div class="row">
-                        <div class="col-1" id="blue-card">
-                           <h3 class="h3_about">Профессиональная юридическая поддержка</h3>
-                            Заключаем с вами официальный договор – гарант чистоты сделки.
-                        </div>
-                        <div class="col-1" id = 'grey-card'>
-                            <h3 class="h3_about">Собственная сервисная компания</h3>
-                            Поддерживает чистоту и порядок в поселке круглый год: убирает дороги, вывозит мусор и ухаживает за зелеными насаждениями
-
-                        </div>
-
-                    </div>
+    </div>
+            <div class="row" id="wrap-items-green-and-transp">
+                <div class="col-3"  id="transparent_card">
+                    <h3 class="h3_about">Удобное расположение</h3>
+                    Участки находятся на популярных трактах города в экологически чистых районах. Дорога до центра Тюмени занимает около 20 минут. Идеальное место для постройки частного дома.
                 </div>
-
+                <div class="col-3" id="green-card">
+                  <h3 class="h3_about">Уникальные места</h3>
+                    Каждый поселок имеет свою концепцию. Вы можете выбрать участок рядом с лесом, на холмах и т.д.
+                </div>
             </div>
         </div>
     </div>
+    <div class="container-md" id="bought_container">
+        <h2 class="h2_bought">Купить земельный участок в<br> Тюменском районе просто</h2>
+    <div class="nav-tab2">
+        <div class="step-bought">
+            Этапы покупки
+        </div>
+        <div class="credit">
+            Рассрочка
+        </div>
+        <div class="ipoteka">
+            Ипотека
+        </div>
+    </div>
 
+        <div class="row" id="tab_1">
+            <div class="col-3"><sup>1</sup><hr><p class="bought_p"><img src="../src/Group (2).png"></p>Вы оставляете заявку на обратный звонок</div>
+            <div class="col-3"><sup>2</sup><hr><p class="bought_p"><img src="../src/Group%2041.png"></p>Мы звоним вам и приглашаем на экскурсию по поселку или в офис</div>
+            <div class="col-3"><sup>3</sup><hr><p class="bought_p"><img src="../src/Group%2042.png"></p>Мы заключаем с вами официальный договор, вы оплачиваете участок удобным вам способом</div>
+            <div class="col-3"><sup>4</sup><p class="bought_p"><img src="../src/Group%2043.png"></p>Участок ваш!</div>
+        </div>
+        <div class="row" id="tab_2">
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2028.png"></p> <p class="mini-h1">Выгодно</p>
+                0% без переплат до 12 месяцев</div>
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2029.png"></p> <p class="mini-h1">Удобно</p>
+                Первоначальный платеж от 30 000 рублей</div>
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2030.png"></p> <p class="mini-h1">Гарантированно</p>
+                Предварительное одобрение 100%</div>
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2031.png"></p> <p class="mini-h1">Эксклюзивно</p>
+                Индивидуальное обсуждение условий</div>
+        </div>
+        <div class="row" id="tab_3">
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2032.png"></p> <p class="mini-h1">Ведущие банки</p>
+                «Сбербанк» и «Запсибкомбанк»</div>
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2033.png"></p> <p class="mini-h1">Ознакомление с программой</p>
+                Подбор в день обращения</div>
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2034.png"></p> <p class="mini-h1">Сбор пакета документов</p>
+                Перечень предоставит ипотечный брокер</div>
+            <div class="col-3"><p class="bought_p"><img src="../src/Group%2035.png"></p> <p class="mini-h1">Срок</p>
+                от 7 до 30 лет</div>
+        </div>
+    </div>
 
-
+    <div class="container-sm" id="contnainer_line2">
+        <div class="line2">
+            <div class="border-left2"> </div>
+            <div class="row" id="line-row">
+                <div class="col-3">
+                    <h1 class="line_h1">Запишитесь на просмотр</h1>
+                </div>
+                <div class="col-4" id="h1_div">
+                    Эксперт по недвижимости быстро подберет вам подходящий вариант земельного участка. А еще проведёт экскурсию по счастливой загородной жизни.
+                </div>
+                </div>
+            <div class="row" id="line-row">
+                <div class="col-3">
+                          <input type="text" class="input_field" placeholder="Имя">
+                </div>
+                <div class="col-3">
+                    <input type="tel"  class="input_field" placeholder="Телефон">
+                </div>
+                <div class="col-2">
+                   <input type="button" value="Записаться" class="filter_button">
+                </div>
+            </div>
+            <input type="checkbox" class="agree-check">Подтверждаю согласие с <span class="agreement">политикой обработки персональных данных</span>
+        </div>
 
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

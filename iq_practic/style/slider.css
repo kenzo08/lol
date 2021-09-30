@@ -94,8 +94,8 @@ background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
 
  .about_slide{
      position: relative;
-     margin-top: 800px;
      display: block;
+     margin-top: 30px;
 
  }
 .about_slide .slick-dots li.slick-active button{
