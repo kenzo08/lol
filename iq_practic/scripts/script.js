@@ -18,6 +18,18 @@ $(document).ready(function (){
         slidesToScroll: 1,
     });
 });
+
+
+$(document).ready(function (){
+    $('.info_slider').slick({
+        dots: true,
+        speed: 400,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+});
+
 let slider = document.querySelector('.slider');
 let list = document.querySelector('.list')
 let activ_but = document.querySelector('.activ_but_js')

@@ -22,14 +22,35 @@
         <div class="col">
             <img src="../src/logo.png" class="logo" height="77" width="150">
         </div>
-        <div class="col">
+        <div class="col" id="dropdwn">
             О компании
+            <div class="dropdown-content">
+                <a href="#">Компания</a>
+                <a href="#">Новости</a>
+                <a href="#">Полезные статьи </a>
+                <a href="#">Карьера в Навигаторе</a>
+                <a href="#">Контакты</a>
+            </div>
         </div>
-        <div class="col">
+        <div class="col" id="dropdwn">
             Коттеджные поселки
+            <div class="dropdown-content">
+                <a href="#">Заповедный</a>
+                <a href="#">Альпийская долина</a>
+                <a href="#">Есенино</a>
+                <a href="#">Сказка</a>
+                <a href="#">Выбрать участок</a>
+            </div>
         </div>
-        <div class="col">
+        <div class="col" id="dropdwn">
             Покупателям
+            <div class="dropdown-content">
+                <a href="#">Цены</a>
+                <a href="#">Как купить</a>
+                <a href="#">Рассрочка</a>
+                <a href="#">Ипотека</a>
+                <a href="#">Акции</a>
+            </div>
         </div>
         <div class="col">
             Сервисная компания
@@ -38,7 +59,7 @@
             Таунхаус
         </div>
         <div class="col">
-            <span>+7 345 565-455</span>
+            <span class="num-head">+7 345 565-455</span>
         </div>
         <div class="col">
             <input type="button" class="order-call" value="Заказать звонок">
@@ -170,11 +191,12 @@
         </div>
         </div>
 
-    <div class="container-sm">
+    <div class="container-sm" id="contnainer_line1">
         <div class="line">
             <div class="border-left"> </div>
-            <h1 class="line_h1">Выберите свой участок</h1>
+
             <div class="row">
+                <h1 class="line_h1">Выберите свой участок</h1>
                 <div class="col-2"></div>
                 <div class="col-2">
                     <label for="customRange1" class="form-label">Стоимость</label>
@@ -322,7 +344,7 @@
             <div class="border-left2"> </div>
             <div class="row" id="line-row">
                 <div class="col-3">
-                    <h1 class="line_h1">Запишитесь на просмотр</h1>
+                    <h1 class="line2_h1">Запишитесь на просмотр</h1>
                 </div>
                 <div class="col-4" id="h1_div">
                     Эксперт по недвижимости быстро подберет вам подходящий вариант земельного участка. А еще проведёт экскурсию по счастливой загородной жизни.
@@ -341,8 +363,69 @@
             </div>
             <input type="checkbox" class="agree-check">Подтверждаю согласие с <span class="agreement">политикой обработки персональных данных</span>
         </div>
+    </div>
+    <h2 class="h2_adv">Почему жители решили купить <br> земельные участки в Тюмени у нас?</h2>
+    <div class="container-sm" id="card_2">
 
+        <div class="row" id="row_card1">
+            <div class="col-3" id="gas"><p class="h3_about">Газ</p><img src="../src/Group%2032%20(2).png" class="icon_gas"> <div class="op_info">Включен в стоимость и готов к подключению</div> </div>
+            <div class="col-3" id="lamp_col"> <p class="card_banner">Уличное <br>освещение</p><img src="../src/Rectangle%2015.1.png" class="pic"> <div class="op_info">Фонари освещают дороги по всей их протяженности, за их работой следит  обслуживающая компания.</div></div>
+            <div class="col-3" id="col_road"> <p class="card_banner">Дороги</p> <img src="../src/Rectangle 15.2.png"> <div class="op_info">В поселках проложены дороги с твердым покрытием – асфальт или асфальтная срезка</div> </div>
+            <div class="col-3" id="infostructure"><p class="h3_about">Инфраструктура</p><img src="../src/hospital%20(1).png" class="icon_inf"><div class="op_info"> Собственные парки, детские площадки. В шаговой доступности школы, больницы, детские сады, магазины и т.д.</div></div>
+        </div>
+        <div class="row" id="row_card2">
+            <div class="col-6" id="wrap_slide">
+                <div class="info_slider">
+                    <div class="first_slide"><p class="h3_about">Рассказываем и показываем</p> <p class="info_p"> Наши специалисты в удобное для вас время проведут экскурсии по коттеджным поселкам компании «Навигатор», расскажут и покажут все преимущества жизни за городом в красивых и благоустроенных поселках.</p> <img src="../src/Group%2036.png" class="logo_slide"></div>
+                    <div class="second_slide"><h3 class="h3_about">Сопровождение сделки юристом</h3> <p class="info_p">Ведущий юрисконсульт окажет полный спектр услуг – от оформления договора купли-продажи до сдачи документов на государственную регистрацию.</p><img src="../src/Group%2016.png" class="logo_slide"></div>
+                    <div class="third_slide"> <h3 class="h3_about">Поможем с выбором</h3> <p class="info_p">Купить земельный участок в Тюмени под ИЖС очень просто: мы всегда предложим оптимальный вариант с учетом ваших пожеланий и представлений! </p><img src="../src/Group%2016(1).png" class="logo_slide"></div>
+                </div>
+                <input type="button" class="button_slide" value="Подобрать участок">
+        </div>
+            <div class="col-3" id="elec"><p class="card_banner">Электричество</p> <img src="../src/Rectangle%2015.3.png" class= "img_electr"> <div class="op_info">В коттеджных поселках проложены линии электропередач.  Все, что нужно – подключиться к сети и заключить договор с энергоснабжающей организацией.</div>
+                <div class="row"> <div class="col-3" ><img src="../src/Rectangle%202.2.png"> </div>
+            </div>
+    </div>
 </div>
+    </div>
+
+    <div class="container-md" id="contnainer_line3">
+        <div class="line3">
+            <div class="row" id="line-row">
+                <div class="col-3">
+                    <h1 class="line2_h1">Остались вопросы?</h1>
+                </div>
+
+            </div>
+            <div class="row" id="line-row">
+                <div class="col-3">
+                    <input type="text" class="input_field" placeholder="Имя">
+                </div>
+                <div class="col-3">
+                    <input type="tel"  class="input_field" placeholder="Телефон">
+                </div>
+                <div class="col-2">
+                    <input type="button" value="Отправить" class="filter_button">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"id="h1_div">
+                    Оставьте свой телефон – наш специалист свяжется с вами и проконсультирует по всем интересующим вас вопросам.
+                    </div>
+
+                <div class="col-5">
+                    <input type="checkbox" class="agree-check">Подтверждаю согласие с <span class="agreement">политикой обработки персональных данных</span>
+                </div>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="../scripts/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="../scripts/script.js "></script>

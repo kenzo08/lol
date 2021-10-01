@@ -130,3 +130,81 @@ background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
     justify-content: center;
     border: none;
 }
+
+
+
+
+
+
+
+.info_slider .slick-initialized .slick-slider .slick-dotted{
+    width: 100%;
+
+}
+.info_slider .slick-arrow {
+}
+
+.info_slider{
+    position: relative;
+    display: block;
+    width: 529px;
+    height:192px; ;
+
+
+}
+.info_slider .slick-dots li.slick-active button{
+    background-color: #6BBD45;
+    width: 10px;
+    height: 10px;
+
+}
+.info_slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+
+}
+.info_slider .slick-list{
+    overflow: hidden;
+}
+.info_slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color:#D1D1D1 ;
+    border-radius: 50%;
+    border: none;
+
+}
+.info_slider .slick-dots{
+    display: flex;
+    position: absolute;
+    top: 385px;
+    right: 60px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.info_slider .slick-arrow{
+    position: absolute;
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+
+}
+
+.info_slider .slick-arrow.slick-next{
+    background: url('../src/Arrow_left_active.png') 0 0 / 100% no-repeat;
+    top: 385px;
+    right: 20px;
+    border: none;
+
+
+}
+
+.info_slider .slick-arrow.slick-prev{
+    background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
+    top: 385px;
+    right: 160px;
+    border: none;
+
+}
