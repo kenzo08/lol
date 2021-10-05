@@ -598,11 +598,21 @@ background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
     .mini_about_slider .slick-arrow {
         visibility: hidden;
     }
-
+.col_mini{
+    margin-left: 10px;
+    width: 260px !important;
+    height: 300px !important;
+    font-size: 15px;
+    line-height: 22px;
+}
     .mini_about_slider{
         position: relative;
         display: block;
-        margin-top: 30px;
+        margin-top: 100px;
+        cursor: pointer;
+        user-select: none;
+
+
 
     }
 

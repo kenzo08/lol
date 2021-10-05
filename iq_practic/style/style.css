@@ -492,6 +492,7 @@ color:     #675a54;
     height: 192px;
     width: 636px;
     border-radius: 3px;
+    background-color: #ffffff;
 }
 #wrap-items-green-and-transp{
     position: inherit;
@@ -1446,5 +1447,12 @@ height: 592px;
     }
 .desktop_static{
     display: none;
+}
+
+
+.h3_card{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
 }
 }
