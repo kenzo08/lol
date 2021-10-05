@@ -483,3 +483,128 @@ background: url('../src/Arrow _right_active.png')  0 0 / 100% no-repeat;
     width: 100%;
 
 }
+
+
+
+.whit-back  .slick-arrow {
+    visibility: hidden;
+}
+
+
+.whit-back  .slick-list{
+    overflow: hidden;
+}
+
+@media (min-width: 800px) {
+    .whit-back .row{
+        position: relative;
+        display: block;
+        margin-left: 100px;
+
+
+
+    }
+    .whit-back .row .col-2{
+        cursor: pointer;
+        user-select: none;
+    }
+    .mini_about_slider{
+        display: none;
+    }
+
+}
+@media (max-width: 768px) {
+    .whit-back .row{
+        display: block;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+        font-size: 13px;
+        line-height: 18px;
+        z-index: 100;
+        background-color: #ffffff;
+
+
+    }
+
+    .whit-back .row .col-2{
+        cursor: pointer;
+        user-select: none;
+        height: 100%;
+        padding: 15px;
+
+    }
+
+.slider .row{
+    height: 326px;
+}
+.slider .col-2{
+    width: 260px;
+    height: 326px;
+}
+
+    .slider .slick-arrow {
+        visibility: hidden;
+    }
+
+
+    .about_slide{
+        display: flex;
+        justify-content: center;
+        width: 720px;
+        height: 540px;
+
+    }
+
+    .about_slide .slick-dots li.slick-active button{
+        background-color: #6BBD45;
+        width: 15px;
+        height: 15px;
+
+    }
+    .about_slide .slick-dots li{
+        list-style: none;
+        margin: 0px 10px;
+
+    }
+    .about_slide .slick-list{
+        overflow: hidden;
+    }
+    .about_slide .slick-dots button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        background-color:#D1D1D1 ;
+        border-radius: 50%;
+        border: none;
+
+    }
+    .about_slide .slick-dots{
+        display: flex;
+        position: absolute;
+        top: 400px;
+        right: 460px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+ .h2_about{
+     margin-top:-50px;
+     margin-left: 70px;
+ }
+
+
+
+    .mini_about_slider .slick-arrow {
+        visibility: hidden;
+    }
+
+    .mini_about_slider{
+        position: relative;
+        display: block;
+        margin-top: 30px;
+
+    }
+
+
+}
