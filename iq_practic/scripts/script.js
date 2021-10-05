@@ -20,7 +20,6 @@ $ ('.slider').slick({
 $(document).ready(function (){
     $('.about_slide').slick({
         dots: true,
-        speed: 400,
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -31,7 +30,6 @@ $(document).ready(function (){
 $(document).ready(function (){
     $('.info_slider').slick({
         dots: true,
-        speed: 400,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -39,17 +37,16 @@ $(document).ready(function (){
 });
 
 
-$(document).ready(function(){
-    $ ('.last_slider').slick({
-        dots: true,
-        infinite: false,
-        slidesToShow: 3,
-        adaptiveHeight: true,
-        speed: 400,
-        slidesToScroll: 1,
-
-    });
-});
+// $(document).ready(function(){
+//     $ ('.last_slider').slick({
+//         dots: true,
+//         infinite: false,
+//         slidesToShow: 3,
+//         adaptiveHeight: true,
+//         slidesToScroll: 1,
+//
+//     });
+// });
 
 $(document).ready(function(){
     $('.whit-back .row').slick({
@@ -57,7 +54,6 @@ $(document).ready(function(){
         infinite: false,
         slidesToShow: 2,
         adaptiveHeight: true,
-        speed: 400,
         slidesToScroll: 1,
 
     });
@@ -245,7 +241,6 @@ news_btn.onclick = function (){
             infinite: false,
             slidesToShow: 3,
             adaptiveHeight: true,
-            speed: 400,
             slidesToScroll: 1,
 
         });
@@ -340,7 +335,8 @@ let dropdown_contents = document.querySelectorAll('.js-dropdown-detail');
 
 
 dropdowns.forEach((el, i) =>{
-    el.addEventListener('click',() =>{
+    el.addEventListener('click',function() {
+        this.classList.contains()
       if(!dropdown_contents[i].classList.contains('mobile_drop')){
          dropdown_contents[i].classList.add("mobile_drop");
          el.style.marginBottom  =  225 +'px';
