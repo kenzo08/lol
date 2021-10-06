@@ -62,7 +62,7 @@ body{
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     .container-fluid{
         width: 1920px !important;
     }
@@ -76,6 +76,9 @@ body{
         margin: 10px;
         width: 388px !important;
 
+    }
+    .card_mobile{
+        display: none;
     }
 
 
@@ -1023,6 +1026,7 @@ width: 340px;
 
 
 }
+
 #contnainer_line3{
     margin-top: 300px;
     position: relative;
@@ -1243,7 +1247,7 @@ height: 592px;
 .ham_close{
     display: none;
 }
-@media  (max-width: 768px) {
+@media  (max-width: 899px) {
     body {
         min-height: 100vh;
         display: flex;
@@ -1446,7 +1450,7 @@ height: 592px;
         margin-left: -800px;
     }
 .desktop_static{
-    display: none;
+    display: none !important;
 }
 
 
@@ -1455,4 +1459,94 @@ height: 592px;
     line-height: 22px;
     font-weight: 700;
 }
+.border-left2{
+    box-sizing: border-box;
+    left: 15px;
+    top: 4474px;
+}
+
+
+    #tab_1 {
+        display: flex !important;
+        flex-flow: column-wrap !important;
+        height: 100%;
+        align-items: center;
+
+    }
+
+
+
+    #contnainer_line2 .row{
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        font-weight: 400;
+    }
+    #contnainer_line2 .row .col-3{
+
+    }
+    #line-row{
+        margin-top: -80px;
+        height: 250px !important;
+    }
+    .line2_h1{
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 700;
+        padding-top: 50px;
+        margin-bottom: 115px;
+    }
+    #h1_div{
+        margin-top: -120px;
+        margin-left: 0;
+    }
+
+#line-row .col-3{
+    margin-bottom: 20px;
+}
+.agreement{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: -200px;
+    margin-left: -40px;
+}
+.agree-check{
+    font-size: 12px;
+    line-height: 18px;
+    position: relative;
+    margin-top: -400px;
+}
+.label_checker{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.h2_adv{
+    margin-left: 0;
+    margin-top: 100px;
+}
+.line3{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#contnainer_line3{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#line-row3 {
+    display: grid;
+    grid-gap: 20px;
+    align-content: center;
+    margin-left: 200px;
+    padding-bottom: 200px !important;
+
+}
+
 }

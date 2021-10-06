@@ -1,5 +1,5 @@
-$(document).ready(function(){
-$ ('.slider').slick({
+$(document).ready(function (){
+$('.slider').slick({
     dots: true,
     infinite: false,
     slidesToShow: 3,
@@ -7,16 +7,56 @@ $ ('.slider').slick({
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 968,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                dots:false
+                dots: false,
             }
-}]
+        }
+        ]
 
 });
 });
+
+$(document).ready(function(){
+    $('.mini_about_slider').slick({
+
+        responsive: [
+            {
+                breakpoint: 968,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite:false,
+                    dots:false
+                }
+            }
+            ]
+
+    });
+});
+$(document).ready(function(){
+    $('.card_mobile').slick({
+        responsive: [
+            {
+                breakpoint: 968,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite:false,
+                    dots:false,
+                }
+            }
+        ]
+
+    });
+});
+
+
+
+
+
 $(document).ready(function (){
     $('.about_slide').slick({
         dots: true,
@@ -37,16 +77,16 @@ $(document).ready(function (){
 });
 
 
-// $(document).ready(function(){
-//     $ ('.last_slider').slick({
-//         dots: true,
-//         infinite: false,
-//         slidesToShow: 3,
-//         adaptiveHeight: true,
-//         slidesToScroll: 1,
-//
-//     });
-// });
+$(document).ready(function(){
+    $('.last_slider').slick({
+        dots: true,
+        infinite: false,
+        slidesToShow: 3,
+        adaptiveHeight: true,
+        slidesToScroll: 1,
+
+    });
+});
 
 $(document).ready(function(){
     $('.whit-back .row').slick({
@@ -59,25 +99,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $ ('.mini_about_slider').slick({
-        dots: false,
-        infinite: false,
-        slidesToShow: 0,
-        adaptiveHeight: true,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    dots:false
-                }
-            }]
-
-    });
-});
 
 
 
@@ -112,6 +133,8 @@ let popupinputs = document.querySelectorAll('input');
 let butn_send = document.querySelector('.send_button');
 let popup2 = document.querySelector('.popup2');
 let warning = document.querySelector('.warning');
+
+
 for(let popupinput of popupinputs) {
     popupinput.oninput = function (){
         if (popupinput.value == ""){
@@ -236,7 +259,7 @@ ipoteka_btn.onclick = function (){
 
 news_btn.onclick = function (){
     $(document).ready(function(){
-        $ ('.last_slider').slick({
+        $('.last_slider').slick({
             dots: true,
             infinite: false,
             slidesToShow: 3,
@@ -277,7 +300,7 @@ article_btn.onclick = function (){
     last_slider3.style.display = 'none';
     last_slider2.style.display = 'block';
     $(document).ready(function(){
-        $ ('.last_slider2').slick({
+        $('.last_slider2').slick({
             dots: true,
             infinite: false,
             slidesToShow: 3,
@@ -292,7 +315,7 @@ article_btn.onclick = function (){
 
 history_btn.onclick = function (){
     $(document).ready(function(){
-        $ ('.last_slider3').slick({
+        $('.last_slider3').slick({
             dots: true,
             infinite: false,
             slidesToShow: 3,
@@ -328,25 +351,40 @@ ham.onclick = function (){
 ham_close.onclick = function (){
     document.querySelector('.header_inner').style.display = 'none'
 }
-let dropdowns = document.querySelectorAll(".js-dropdown");
+let dropdowns = document.querySelectorAll('.js-dropdown');
 let dropdown_contents = document.querySelectorAll('.js-dropdown-detail');
 
 
 
 
 dropdowns.forEach((el, i) =>{
-    el.addEventListener('click',function() {
-        this.classList.contains()
-      if(!dropdown_contents[i].classList.contains('mobile_drop')){
-         dropdown_contents[i].classList.add("mobile_drop");
-         el.style.marginBottom  =  225 +'px';
-      }else {
-          el.style.marginBottom = 15 + 'px';
-          dropdown_contents[i].classList.remove("mobile_drop");
+    el.addEventListener('click',() =>{
+        if(!dropdown_contents[i].classList.contains('mobile_drop')){
+            dropdown_contents[i].classList.add("mobile_drop");
+            el.style.marginBottom  =  225 +'px';
+        }else {
+            el.style.marginBottom = 15 + 'px';
+            dropdown_contents[i].classList.remove("mobile_drop");
 
-      }
+        }
 
 
-   });
+    });
 });
+
+// dropdowns.forEach((el, i) =>{
+//     el.addEventListener('click',function() {
+//         if(!this.classList.contains('mobile_drop')){
+//      // dropdown_contents[i].classList.contains('mobile_drop')
+//          dropdown_contents[i].classList.add("mobile_drop");
+//          this.style.marginBottom  =  225 +'px';
+//       }else {
+//           this.style.marginBottom = 15 + 'px';
+//           dropdown_contents[i].classList.remove("mobile_drop");
+//
+//       }
+//
+//
+//    });
+// });
 
